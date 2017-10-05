@@ -1,0 +1,47 @@
+body, html{
+    height: 100%;
+}
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    min-width: 1080px;
+}
+.wrapper:after{
+    content: "";
+    display: block;
+    height: 80px;
+}
+/*как подогнать его?(футер)*/
+.footer{
+    height: 77px;
+    background: #1c5bc3;
+    color: #ffffff;
+    margin-top: -80px;
+    min-width: 1080px;
+
+}
+body{
+    color: #221f1f;
+    font-family: 'Roboto';
+    margin: 0;
+    line-height: 1.42;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .conteiner{
+    width: 1060px;
+    margin: 0 auto;
+} 
+

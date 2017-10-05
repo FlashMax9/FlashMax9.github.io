@@ -1,0 +1,75 @@
+
+.footer__col{
+    float: left;
+    width: 33.3%;
+    height: 50px;
+}
+.footer__text{
+    margin: 10px 0 12px 19px;
+	width: 235px;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 300;
+
+}   
+.logo__foot{
+    margin-top: 26px;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: 150px;
+}
+
+.footer__col_align_right{
+    text-align: right;
+}
+.footer__loftschool{
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 300;
+	font-weight: 700;
+
+}
+.footer__name{
+    font-weight: 700;
+    color: #ffffff;
+}
+
+/*как переместить их под надпись?*/
+.socials{
+    float: right;
+	text-align: right;
+}
+.socials__list{
+	float: left;
+    list-style-type: none;
+    margin: 41px 34px 14px 150px ;
+}
+.socials__item{
+    margin-right: 15px;
+    line-height: 1.15;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-top: 6px;
+	float: left;
+    transition: 0.4s;
+}
+.socials__link{
+	display: inline-block;
+	color: #27273e;
+	font-size: 12px;
+}
+.socials__itemhover{
+	background-color: #d0d0d0;
+}
+.socials__titlle{
+        text-align: center;
+        float: right;
+        font-size: 14px;
+        color: #ffffff;
+        font-weight: bold;
+        line-height: 3.857;
+        margin-right: 20px;
+}

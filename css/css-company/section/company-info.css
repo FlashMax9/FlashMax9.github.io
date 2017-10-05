@@ -1,0 +1,97 @@
+.title__company{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-style: bold;
+    font-size: 49px;
+    transform: translate(65px,150px);
+    width: 879px;
+    margin-bottom: 87px;
+    float: right;
+    margin-top: -44px;
+}
+.main__company{
+    width: 879px;
+     height: 354px;
+    background-image: url('../../../img/background-company.png');
+     background-position-y: -73px;
+     background-color: #fff;
+     filter: brightness(110%);
+     opacity: .9;
+     margin-bottom: 25px;
+}
+.text__company{
+    width: 698px;
+    height: 731px;
+   
+}
+.maincontent{
+    width: 703px;
+    height: 1224px;
+    margin-left: 198px;
+    margin-right: 199px;
+    margin-bottom: 24px;
+    float: right;
+    
+}
+.text__info, .text__info-list{
+    font-size: 18px;
+    font:'Roboto';
+    font-weight: 300;
+    color: #221f1f;
+    line-height: 30px;
+}
+
+.booking {
+    width: 600px;
+    min-height: 78px;
+    padding: 15px 70px 16px 30px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.66;
+    color: #fff;
+    background-color:#1c5bc3;
+}
+.booking__link {
+    font-weight: 700;
+    color: #fff;
+}
+.booking__phone {
+    color: #fff;
+    font-weight: 700;
+}
+.booking__link:hover, .booking__phone:hover {
+    text-decoration: none;
+}
+.partners {
+    margin-left: -40px;
+    margin-top: 60px;
+    width: 806px;
+}
+.title__partners {
+    font-family: 'Roboto';
+    font-size: 49px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.partners__item {
+    display: inline-block;
+    width: 161px;
+    vertical-align: middle;
+    margin-top: 0px;
+    margin-bottom: 65px;
+    margin-left: 0px;
+    margin-right: 105px;
+    filter: grayscale(100%);
+    -webkit-transition: grayscale, .3s;
+    transition: grayscale, .3s;
+    
+}
+.partners__logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.partners__item:hover  {
+    filter: grayscale(0%);
+}

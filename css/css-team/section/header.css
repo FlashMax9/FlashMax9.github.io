@@ -1,0 +1,107 @@
+.header {
+    background: #1c5bc3;
+    color: #fff; 
+    left: 0px;
+    top: -1px;
+    height: 77px;
+    z-index: 49;
+  }
+  
+  .header__col {
+    float: left;
+    width: 50%;
+   
+  }
+  .logo__img{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 19px;
+  }
+  .header__col_align_right{
+      text-align: right;  
+  }
+
+.contacts{
+	float: right;
+	padding-right: 19px; 
+}
+.contacts__phones{
+    width: 173px;
+    height: 22px;
+    font-size: 21px;
+    font: 'Roboto';
+    font-style: bold;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.contacts__btn{
+	opacity: 0.5;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: underline;
+	border: none;
+	background: none;
+}
+.contacts__work{
+	padding-right: 1px;
+	padding-top: 9px;
+	text-align: right;
+	position: relative;
+}
+/*уходит и не возвращается при наведении*/
+.contacts__drop-menu{
+    min-height: 71px;
+    margin-top: 17px;
+    border-radius: 4px;
+   right: -99999px;*/
+    top: 100%;
+    margin-top: 25px;
+    z-index: 54;
+    box-shadow: 0px 0px 10px 0px rgba(23, 59, 117, 0.55);
+    text-align: left;
+    height: 80px;
+    border: 1px solid #ffffff;
+    border-radius: 0px;
+    position: absolute;
+    background-image: linear-gradient(to top, #ffffff 0%, #ffffff 100%);
+}
+
+.contacts__btn:hover + .contacts__drop-menu{
+    display: block;
+}
+.contacts__drop-menu:hover + .triangle{
+    display: block;
+}
+
+.contacts__drop-item{
+	margin-left: 21px;	
+	margin-top: 14px;
+	margin-bottom: 10px;
+	display: inline-block;
+	font-size: 14px;
+}
+.contacts__triangle{
+    width: 10px;
+    height: 10px;
+    border-right: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    bottom: 100%;
+    position: absolute;
+    transform: rotate(-45deg);
+    margin-bottom: -5px;
+    right: 2%;
+    margin-left: -5px;
+    background: #ffffff;
+
+}
+.contacts__date{
+	color: #1c5bc3;
+	font-weight: 700;
+}
+.contacts__dinner{
+	margin-top: 3px;
+	color: #221f1f;
+	font-weight: 300;
+}
