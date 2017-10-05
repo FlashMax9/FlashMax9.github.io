@@ -12,6 +12,7 @@ body, html{
     height: 80px;
 }
 .footer{
+    overflow: hidden;
     height: 77px;
     background: #1c5bc3;
     color: #ffffff;

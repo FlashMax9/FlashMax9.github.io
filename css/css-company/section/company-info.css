@@ -1,3 +1,4 @@
+
 .title__company{
     font-family: 'Roboto';
     font-weight: 700;
@@ -10,12 +11,11 @@
     margin-top: -44px;
 }
 .main__company{
-    width: 879px;
-     height: 354px;
+    width: 882px;
+     height: 357px;
     background-image: url('../../../img/background-company.png');
-     background-position-y: -73px;
+     background-position-y: -74px;
      background-color: #fff;
-     filter: brightness(110%);
      opacity: .9;
      margin-bottom: 25px;
 }
@@ -26,7 +26,7 @@
 }
 .maincontent{
     width: 703px;
-    height: 1224px;
+    height: 1520px;
     margin-left: 198px;
     margin-right: 199px;
     margin-bottom: 24px;
@@ -64,7 +64,7 @@
     text-decoration: none;
 }
 .partners {
-    margin-left: -40px;
+    margin-left: 0px;
     margin-top: 60px;
     width: 806px;
 }

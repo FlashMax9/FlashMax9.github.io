@@ -67,11 +67,11 @@
     position: absolute;
     background-image: linear-gradient(to top, #ffffff 0%, #ffffff 100%);
 }
-
+/*как пропимать??*/
 .contacts__btn:hover + .contacts__drop-menu{
     display: block;
 }
-.contacts__drop-menu:hover + .triangle{
+.contacts__btn:hover + .contacts__drop-item{
     display: block;
 }
 

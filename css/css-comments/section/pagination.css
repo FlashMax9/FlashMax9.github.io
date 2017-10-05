@@ -1,6 +1,5 @@
  .pagination{
-   text-align: center;
-    margin-top: 45px;
+   margin-top: 45px;
     margin-left: 77px;
     margin-bottom: 67px;
   }
@@ -33,14 +32,14 @@
   }
   .number:hover{
     color: #1c5bc3;
-    border-radius: 5px;
+    border-radius: 15px;
   }
   
   .pagination__list:hover{
     color: #1c5bc3;
   }
   .pag__numb-active{ 
-    border-radius: 5px;
+    border-radius: 15px;
     width: 25px;
     height: 25px;
     background-color:#ffffff;
