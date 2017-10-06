@@ -14,7 +14,7 @@
   color: #221f1f;
 }
 .navig__link:hover .navig__icon_hat{
-    background-image: url('../../img/team_icon2.png');
+    background-image: url('../../../img/team_icon2.png');
 }
 .navig__icon{
   width: 23px;

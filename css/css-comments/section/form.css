@@ -1,4 +1,4 @@
-
+/*кнопку не переместить вправо,  да/нет - отсутствуют поля для точки*/
 .form{
 	border-radius:3px;
 	clear: both;
@@ -114,5 +114,5 @@
 }
 
 .form__submit-icon{
-background-image: url('../img/main_icon2.png');
+background-image: url('../../../img/main_icon2.png');
 }

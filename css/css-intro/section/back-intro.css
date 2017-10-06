@@ -50,6 +50,7 @@
     display: inline-block;
     vertical-align: middle;
     background-image: url('../img/main_icon.png');
+    background-color: #fff;
     transition: 1s;
     
 }

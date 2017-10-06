@@ -1,51 +1,50 @@
+ /*как выровнять по горизонтали*/
  .pagination{
-   margin-top: 45px;
-    margin-left: 77px;
-    margin-bottom: 67px;
-  }
-  .pagination__content{
-    width: 119px;	
-    text-align: center;
-    display: inline-block;
-    color: #656464;
-    font-size: 14px;
-    font-weight: 300;
-  }
-  
-  .pagination__list{
-    font-size: 0px;
-    text-align: center;
-    display: inline-block;
-    margin-left: 3px;
-  }
-  .pagintation__number{
-    width: 25px;
-    height: 25px;
-    display: inline-block;
-  }
-  .number{
-    text-decoration: none;
-    color: #221f1f;
-    font-size: 14px;
-    font-weight: 700;
-    transition: 0.3s;
-  }
-  .number:hover{
-    color: #1c5bc3;
-    border-radius: 15px;
-  }
-  
-  .pagination__list:hover{
-    color: #1c5bc3;
-  }
-  .pag__numb-active{ 
-    border-radius: 15px;
-    width: 25px;
-    height: 25px;
-    background-color:#ffffff;
-    color: #1c5bc3;
-  }
-  .number__active{
-    background: #1c5bc3;
-    color: #ffffff;
-  }
+      margin-top: 45px;
+      margin-left: 77px;
+      text-align: center;
+      margin-bottom: 67px;
+      display: inline-block;
+}
+.pagination__content{
+      width: 119px;	
+      text-align: center;
+      display: inline-block;
+      color: #656464;
+      font-size: 14px;
+      font-weight: 300;
+}
+.pagination__list{
+      font-size: 0px;
+      text-align: center;
+      display: inline-block;
+      list-style-type: none;
+      margin-left: 3px;
+}
+.pagintation__number{
+      width: 25px;
+      height: 25px;
+      display: inline-block;
+    
+ }
+ .number{
+      text-decoration: none;
+      color: #221f1f;
+      font-size: 14px;
+      font-weight: 700;
+      -webkit-transition: 0.1s;
+      -moz-transition: 0.1s;
+      transition: 0.1s;
+}
+.number:hover{
+      color: #1c5bc3;
+}
+.pag__numb-active{ 
+      border-radius: 3px;
+      width: 25px;
+      height: 25px;
+      background-color: #1c5bc3;
+     }
+.number__active{
+      color: #FFFFFF
+}

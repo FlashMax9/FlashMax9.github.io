@@ -13,7 +13,7 @@
   color: #221f1f;
 }
 .navig__link:hover .navig__icon_star{
-    background-image: url('../../img/feed_icon2.png');
+    background-image: url('../../../img/feed_icon2.png');
 }
 .navig__icon{
   width: 23px;

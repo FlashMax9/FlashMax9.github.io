@@ -12,8 +12,8 @@
 .navig__link:hover .navig__text{
   color: #221f1f;
 }
-.navig__link:hover .navig__icon_star{
-    background-image: url('../../../img/feed_icon2.png');
+.navig__link:hover .navig__icon_plant{
+    background-image: url('../../../img/main-icon-2.png');
 }
 .navig__icon{
   width: 23px;
